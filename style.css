@@ -719,7 +719,128 @@ img{
 #footer{
     background-color: #F4F5F7;
     padding: 0px auto;
+    display: flex;
+    justify-content: center;
 }
 #innfoot{
-    margin: 0 auto;
+    width: 60%;
+    margin-top: 5vmin;
+    padding-top: 1vmin;
+    padding-left: 4vmin;
+}
+#icons{
+    display: flex;
+    gap: 60px;
+    margin-left: 3vmin;
+}
+.fa-x-twitter{
+    color: #707070;
+    font-size: 24px;
+    font-weight: 400;
+}
+.fa-facebook-f{
+    color: #707070;
+    font-size: 24px;
+    font-weight: 400;
+}
+.fa-tiktok{
+    color: #707070;
+    font-size: 24px;
+    font-weight: 400;
+}
+.fa-instagram{
+    color: #707070;
+    font-size: 24px;
+    font-weight: 400;
+}
+.fa-youtube{
+    color: #707070;
+    font-size: 24px;
+    font-weight: 400;
+}
+.fa-whatsapp{
+    color: #707070;
+    font-size: 24px;
+    font-weight: 400;
+}
+.ic-font a{
+    text-decoration: none;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+}
+.ic-font:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #707070;
+}
+.ic-font .fa-x-twitter:hover{
+    color: black;
+}
+.ic-font .fa-facebook-f:hover{
+    color: blue;
+}
+
+.ic-font .fa-tiktok:hover{
+    color: rgb(216, 7, 87);
+}
+
+.ic-font .fa-instagram:hover{
+    color: red;
+}
+
+.ic-font .fa-youtube:hover{
+    color: red;
+}
+
+.ic-font .fa-whatsapp:hover{
+    color: green;
+}
+#part-sky-more{
+    display: flex;
+    gap: 17vmin;
+    border-top: 1px solid #4A4A4A;
+    border-bottom: 1px solid #4A4A4A;
+    margin-top: 5vmin;
+}
+.part{
+    display: flex;
+    flex-direction: column;
+    gap: 2vmin;
+    padding-top: 3vmin;
+    padding-bottom: 3vmin;
+}
+.p{
+    font-size: 24px;
+    font-weight: 200;
+    color: #4A4A4A;
+}
+.a{
+    text-decoration: none;
+    color: #4A4A4A;
+    font-size: 16px;
+}
+.a:hover{
+    text-decoration: underline;
+    background-color: #d3d2d2;
+}
+
+#footer-nav{
+    display: flex;
+    gap: 4vmin;
+    margin-top: 5vmin;
+}
+
+#sky{
+    display: flex;
+    margin-top: 3vmin;
+    margin-bottom: 40px;
+}
+#sky img:hover{
+    cursor: pointer;
+}
+
+#p{
+    font-size: 16px;
+    color: #4A4A4A;
 }
